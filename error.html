@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Health Stats Dashboard</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f4;
+    }
+    header {
+      background-color: #2c3e50;
+      color: white;
+      padding: 1rem;
+      text-align: center;
+    }
+    .container {
+      max-width: 900px;
+      margin: auto;
+      padding: 2rem;
+      background-color: white;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    h2 {
+      border-bottom: 1px solid #ddd;
+      padding-bottom: 0.5rem;
+    }
+    .stat {
+      margin: 1rem 0;
+      padding: 1rem;
+      background-color: #ecf0f1;
+      border-radius: 5px;
+    }
+    .stat span {
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Health Stats Dashboard</h1>
+    <p>Error Page</p>
+  </header>
+  <!-- <div class="container">
+    <section id="whoop-stats">
+      <h2>Error Page</h2>
+      <div class="stat">Sleep Duration: <span id="whoop-sleep">Loading...</span></div>
+      <div class="stat">Recovery Score: <span id="whoop-recovery">Loading...</span></div>
+      <div class="stat">Strain: <span id="whoop-strain">Loading...</span></div>
+    </section>
+
+    <section id="withings-stats">
+      <h2>Withings Metrics</h2>
+      <div class="stat">Weight: <span id="withings-weight">Loading...</span></div>
+      <div class="stat">Heart Rate: <span id="withings-hr">Loading...</span></div>
+      <div class="stat">Steps: <span id="withings-steps">Loading...</span></div>
+    </section>
+  </div> -->
+
+  <script>
+    // Example: Replace this with real API data fetching in production
+    document.getElementById("whoop-sleep").textContent = "7h 45m";
+    document.getElementById("whoop-recovery").textContent = "82%";
+    document.getElementById("whoop-strain").textContent = "14.1";
+
+    document.getElementById("withings-weight").textContent = "172.5 lbs";
+    document.getElementById("withings-hr").textContent = "62 bpm";
+    document.getElementById("withings-steps").textContent = "8,450";
+  </script>
+</body>
+</html>
